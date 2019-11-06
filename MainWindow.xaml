@@ -1,0 +1,15 @@
+﻿<Window x:Class="QualCnpj.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QualCnpj"
+        mc:Ignorable="d"
+        Title="Qual Cnpj ?" Height="39" Width="26" MinWidth="500" MinHeight="200">
+    <Grid>
+        <Button x:Name="buttonSearch" Content="Localizar" Margin="213,0,10,10" Height="20" VerticalAlignment="Bottom" Click="Button_Click"/>
+        <TextBox x:Name="textBoxSource" HorizontalAlignment="Left" Margin="10,10,0,10" TextWrapping="NoWrap" Width="198" AcceptsReturn="True" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto"/>
+        <TextBox x:Name="textBoxOutput" Margin="213,10,10,35" TextWrapping="NoWrap" IsReadOnly="True" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto"/>
+
+    </Grid>
+</Window>
